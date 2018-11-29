@@ -1,0 +1,11 @@
+type details {
+	employeeId:String
+	employeeFirstName:String
+    employeeLastName:String
+    employeePhone:String
+	employeeEmail:String
+}
+
+type Query{
+    employeeDetails:details
+}

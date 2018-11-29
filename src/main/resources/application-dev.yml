@@ -1,0 +1,18 @@
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 25000
+        readTimeout: 25000
+        loggerLevel: basic
+  hystrix:
+    enabled: true
+
+employeeDetails:
+  api:
+    name: EmployeeDetails
+    url: http://localhost:8080
+
+graphql:
+    tools:
+        schemaLocationPattern: "**/*.graphqls"

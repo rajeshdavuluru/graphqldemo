@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: employee-details
+  profiles:
+      active: dev
+
+server:
+  port: 8080
+
+
