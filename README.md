@@ -30,6 +30,6 @@
 #4)	What is GraphiQL?
 	GraphiQL is proving UI to communicate with any GraphQL Server and execute queries and mutations against it.
 
-    TODO: Query with attributes and stitching.
+    TODO: Query with attributes and stitching.; 
 
 
